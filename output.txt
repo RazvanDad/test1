@@ -1,0 +1,248 @@
+    1  htop
+    2  top
+    3  ls
+    4  ls -l
+    5  pwd
+    6  git config
+    7  git config --global user.name "Razvan Dad"
+    8  git config --global user.email razvan.dad@gmail.com
+    9  git config
+   10  git config --list
+   11  git help
+   12  git help config
+   13  dir
+   14  cd /c/Users/
+   15  dir
+   16  ls
+   17  ls -l
+   18  pwd
+   19  cd Zinji/
+   20  ls
+   21  ls -l
+   22  ls
+   23  ls -l
+   24  pwd
+   25  git init
+   26  ls -l
+   27  dir
+   28  pwd
+   29  ls
+   30  ls -al
+   31  ls
+   32  ls -l
+   33  pwd
+   34  ls -l
+   35  ls -a
+   36  cd git
+   37  ls
+   38  ls -l
+   39  pwd
+   40  ls -al
+   41  git clone https://github.com/Netflix/zuul
+   42  ls
+   43  ls -l
+   44  git status
+   45  git init
+   46  ls
+   47  git status
+   48  cd zuul/
+   49  ls
+   50  ls -l
+   51  git status
+   52  git status -s
+   53  git status
+   54  ls -l
+   55  cat build.gradle 
+   56  ls
+   57  ls -l
+   58  cat LICENSE 
+   59  ls -l
+   60  cat README.md 
+   61  ls -l
+   62  df
+   63  du
+   64  du -sort
+   65  du sort
+   66  du --sort
+   67  sort
+   68  sort help
+   69  help sort
+   70  info sort
+   71  bash
+   72  help
+   73  history
+   74  ks
+   75  l
+   76  ls
+   77  ls -l
+   78  ls -al
+   79  ls
+   80  ls -l
+   81  ls
+   82  ls
+   83  cd zuul/
+   84  ls
+   85  ls -l
+   86  git status
+   87  git diff
+   88  git log
+   89  ls
+   90  ls -l
+   91  git log -p
+   92  git log --stat
+   93  git remote
+   94  git remote -v
+   95  git remote add rd https://github.com/RazvanDad/test1
+   96  git remote
+   97  git remote -v
+   98  git fetch rd
+   99  git remote add rd https://github.com/RazvanDad/test1
+  100  git remote
+  101  git fetcg rd
+  102  git fetch rd
+  103  git remote -v
+  104  git push rd
+  105  git remote
+  106  git remote add rd https://github.com/RazvanDad/test1
+  107  git remote -v
+  108  git fetch rd
+  109  git fetch rd
+  110  ls
+  111  ls -l
+  112  ls
+  113  ls -l
+  114  cd test1/
+  115  ls -l
+  116  cd result/
+  117  ls -l
+  118  history
+  119  ls -l
+  120  history
+  121  ls -l
+  122  cd ..
+  123  ls -l
+  124  rm -rf result
+  125  ls -l
+  126  pwd
+  127  ls -l
+  128  mkdir result
+  129  ls -l
+  130  pwd
+  131  find /c/Users/Zinji/test1 -type f
+  132  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/result \;
+  133  git status
+  134  history
+  135  git status
+  136  git -diff staged
+  137  git diff --staged
+  138  git status
+  139  git diff
+  140  git add result/
+  141  git status
+  142  git add*
+  143  git commit --amend
+  144  ls -l
+  145  cd test1/
+  146  ls -l
+  147  history
+  148  git remote
+  149  git remote -v
+  150  mkdir FinalResult
+  151  ls -l
+  152  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \;
+  153  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \;
+  154  ls -l
+  155  rm -rf FinalResult/
+  156  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \; > copy.log
+  157  ls -l
+  158  cat FinalResult 
+  159  ls -l
+  160  rm FinalResult 
+  161  ls -l
+  162  mkdir FinalResult
+  163  ls -l
+  164  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \; > copy.log
+  165  ls -l
+  166  cd FinalResult/
+  167  ls -l
+  168  cd ..
+  169  ls -l
+  170  cat copy.log 
+  171  less copy.log 
+  172  rm copy.log 
+  173  ls -l
+  174  rm -rf FinalResult/
+  175  ls -l
+  176  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \;
+  177  ls -l
+  178  rm FinalResult 
+  179  ls -l
+  180  mkdir FinalResult
+  181  ls -l
+  182  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/FinalResult \;
+  183  git remote -v
+  184  git status
+  185  git add FinalResult/
+  186  git status
+  187  git diff
+  188  git commit
+  189  ls -l
+  190  cd test1/
+  191  ls -l
+  192  rm -rf FinalResult/
+  193  ls -l
+  194  git status
+  195  git status -s
+  196  git commit -a
+  197  ls -l
+  198  git status
+  199  git checkout
+  200  git status
+  201  git status -s
+  202  ls -l
+  203  history
+  204  ls -l
+  205  mkdir end
+  206  ls -l
+  207  pwd
+  208  find /c/Users/Zinji/test1 -type f cp -exec {} /c/Users/Zinji/test1/end
+  209  find /c/Users/Zinji/test1 -type f cp -exec {} /c/Users/Zinji/test1/end \;
+  210  history
+  211  find /c/Users/Zinji/test1 -type f -exec cp {} /c/Users/Zinji/test1/end \;
+  212  ls -l
+  213  cd end
+  214  ls -l
+  215  ls -l
+  216  cd ..
+  217  ls -l
+  218  git status
+  219  git remote -v
+  220  git push origin
+  221  git fetch origin
+  222  git status
+  223  git add *.
+  224  git add *.*
+  225  git status
+  226  git add end/
+  227  git status
+  228  git commit -m "new folder /end"
+  229  git status
+  230  git commit -a "new changes"
+  231  git commit -am "new changes"
+  232  git status
+  233  git diff
+  234  git status
+  235  git log
+  236  ls -l
+  237  git remote -v
+  238  git remote add rd https://github.com/RazvanDad/test1
+  239  git remote -v
+  240  git fetch rd
+  241  git remote -v
+  242  git status
+  243  git diff
+  244  git push rd
+  245  git diff HEAD
+  246  git diff
+  247  history
+  248  history > output.txt
