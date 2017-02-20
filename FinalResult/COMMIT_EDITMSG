@@ -1,0 +1,149 @@
+Merge pull request #284 from vtahlani/patch-1
+
+Update SurgicalDebugFilter.groovy
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Author:    Mikey Cohen <mikeycohen@gmail.com>
+# Date:      Tue Dec 6 16:37:05 2016 -0800
+#
+# On branch 1.x
+# Your branch is up-to-date with 'origin/1.x'.
+#
+# Changes to be committed:
+#	new file:   result/.gitignore
+#	new file:   result/.netflixoss
+#	new file:   result/.travis.yml
+#	new file:   result/1.x
+#	new file:   result/AbstractCassandraHystrixCommand.java
+#	new file:   result/AdminFilterUtil.java
+#	new file:   result/AmazonInfoHolder.java
+#	new file:   result/CHANGELOG.md
+#	new file:   result/CassandraCache.java
+#	new file:   result/CassandraHelper.java
+#	new file:   result/ContextLifecycleFilter.java
+#	new file:   result/Counter.java
+#	new file:   result/CounterFactory.java
+#	new file:   result/Debug.groovy
+#	new file:   result/Debug.java
+#	new file:   result/DebugFilter.groovy
+#	new file:   result/DebugRequest.groovy
+#	new file:   result/DeepCopy.java
+#	new file:   result/DefaultCassandraCache.java
+#	new file:   result/DefaultFilterFactory.java
+#	new file:   result/DynamicCodeCompiler.java
+#	new file:   result/ErrorResponse.groovy
+#	new file:   result/ErrorStatsData.java
+#	new file:   result/ErrorStatsManager.java
+#	new file:   result/ExecutionStatus.java
+#	new file:   result/FilterFactory.java
+#	new file:   result/FilterFileManager.java
+#	new file:   result/FilterId.java
+#	new file:   result/FilterInfo.java
+#	new file:   result/FilterLoader.java
+#	new file:   result/FilterProcessor.java
+#	new file:   result/FilterRegistry.java
+#	new file:   result/FilterScriptManagerServlet.java
+#	new file:   result/FilterUsageNotifier.java
+#	new file:   result/FilterVerifier.java
+#	new file:   result/GroovyCompatability.groovy
+#	new file:   result/GroovyCompiler.java
+#	new file:   result/GroovyFileFilter.java
+#	new file:   result/HEAD
+#	new file:   result/HTTPRequestUtils.java
+#	new file:   result/Healthcheck.groovy
+#	new file:   result/HostCommand.java
+#	new file:   result/HttpServletRequestWrapper.java
+#	new file:   result/HttpServletResponseWrapper.java
+#	new file:   result/HystrixCassandraGetRowsByKeys.java
+#	new file:   result/HystrixCassandraGetRowsByQuery.java
+#	new file:   result/HystrixCassandraPut.java
+#	new file:   result/IZuulFilter.java
+#	new file:   result/JsonUtility.java
+#	new file:   result/LICENSE
+#	new file:   result/MetricPoller.java
+#	new file:   result/Monitor.java
+#	new file:   result/MonitorRegistry.java
+#	new file:   result/MonitoringHelper.java
+#	new file:   result/NFRequestContext.java
+#	new file:   result/NamedCount.java
+#	new file:   result/NamedCountingMonitor.java
+#	new file:   result/Options.groovy
+#	new file:   result/PostDecoration.groovy
+#	new file:   result/PreDecoration.groovy
+#	new file:   result/PreDecorationFilter.groovy
+#	new file:   result/README.md
+#	new file:   result/RequestContext.java
+#	new file:   result/RequestEventInfoCollector.groovy
+#	new file:   result/RibbonCommand.java
+#	new file:   result/RibbonConfig.java
+#	new file:   result/RouteStatusCodeMonitor.java
+#	new file:   result/Routing.groovy
+#	new file:   result/SendResponseFilter.groovy
+#	new file:   result/ServletInputStreamWrapper.java
+#	new file:   result/ServoMonitor.java
+#	new file:   result/SimpleHostRoutingFilter.groovy
+#	new file:   result/StartServer.java
+#	new file:   result/StaticResponseFilter.groovy
+#	new file:   result/Stats.groovy
+#	new file:   result/StatsManager.java
+#	new file:   result/SurgicalDebugFilter.groovy
+#	new file:   result/Tracer.java
+#	new file:   result/TracerFactory.java
+#	new file:   result/UsageDoc.java
+#	new file:   result/UsageError.java
+#	new file:   result/ValidActionEvaluation.java
+#	new file:   result/WeightedLoadBalancer.groovy
+#	new file:   result/ZuulApplicationInfo.java
+#	new file:   result/ZuulConstants.java
+#	new file:   result/ZuulEvent.java
+#	new file:   result/ZuulException.java
+#	new file:   result/ZuulFilter.java
+#	new file:   result/ZuulFilterDAO.java
+#	new file:   result/ZuulFilterDAOCassandra.java
+#	new file:   result/ZuulFilterPoller.java
+#	new file:   result/ZuulFilterResult.java
+#	new file:   result/ZuulHeaders.java
+#	new file:   result/ZuulHostRequest.groovy
+#	new file:   result/ZuulNFRequest.groovy
+#	new file:   result/ZuulRunner.java
+#	new file:   result/ZuulServlet.java
+#	new file:   result/ZuulServletFilter.java
+#	new file:   result/applypatch-msg.sample
+#	new file:   result/build.gradle
+#	new file:   result/buildViaTravis.sh
+#	new file:   result/checkstyle.xml
+#	new file:   result/commit-msg.sample
+#	new file:   result/config
+#	new file:   result/description
+#	new file:   result/exclude
+#	new file:   result/filterLoader.jsp
+#	new file:   result/gradle-wrapper.properties
+#	new file:   result/gradle.properties
+#	new file:   result/gradlew
+#	new file:   result/gradlew.bat
+#	new file:   result/index
+#	new file:   result/installViaTravis.sh
+#	new file:   result/javadocStyleSheet.css
+#	new file:   result/log4j.properties
+#	new file:   result/pack-dbcdab8a9af3c4905e08cf8de7ef4c5ea60d5610.idx
+#	new file:   result/pack-dbcdab8a9af3c4905e08cf8de7ef4c5ea60d5610.pack
+#	new file:   result/packed-refs
+#	new file:   result/post-update.sample
+#	new file:   result/pre-applypatch.sample
+#	new file:   result/pre-commit.sample
+#	new file:   result/pre-push.sample
+#	new file:   result/pre-rebase.sample
+#	new file:   result/pre-receive.sample
+#	new file:   result/prepare-commit-msg.sample
+#	new file:   result/rules.groovy
+#	new file:   result/scripts.txt
+#	new file:   result/sendResponse.groovy
+#	new file:   result/settings.gradle
+#	new file:   result/update.sample
+#	new file:   result/web.xml
+#	new file:   result/zuul-local.properties
+#	new file:   result/zuul.properties
+#	modified:   zuul-core/src/main/groovy/com/netflix/zuul/filters/SurgicalDebugFilter.groovy
+#
